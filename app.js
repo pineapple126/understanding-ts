@@ -5,8 +5,12 @@
 var person = {
     name: "Zhaoq",
     age: 30,
-    hobbies: ["Sports", "Cooking"]
+    hobbies: ["Sports", "Cooking"],
+    role: [2, "author"]
 };
+// person.role.push("admin"); // TypeScipt can't catch the error
+// person.role[1] = 10;
+// person.role = [0, "admin", "user"];
 var favoriteActivities;
 favoriteActivities = ["Sports"];
 console.log(person.name);
